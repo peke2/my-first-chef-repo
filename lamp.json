@@ -1,0 +1,11 @@
+{
+	"apache2":{
+		"server":{
+			"packages":[]
+		}
+	},
+
+	"run_list":[
+		"recipe[apache2]"
+	]
+}
